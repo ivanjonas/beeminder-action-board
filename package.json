@@ -1,0 +1,31 @@
+{
+  "name": "beeminder-action-board",
+  "version": "1.0.0",
+  "description": "Entirely client-side app to easily submit predefined data points",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "sass": "^1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir dist-dev",
+    "build": "parcel build src/index.html --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanjonas/beeminder-action-board.git"
+  },
+  "author": "github.com/ivanjonas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanjonas/beeminder-action-board/issues"
+  },
+  "homepage": "https://github.com/ivanjonas/beeminder-action-board#readme"
+}
