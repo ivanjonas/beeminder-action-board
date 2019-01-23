@@ -4,6 +4,7 @@
   "description": "Entirely client-side app to easily submit predefined data points",
   "main": "index.js",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
     "assemble": "^0.3.83",
     "grunt": "^0.4.5",
     "parcel-bundler": "^1.11.0",
@@ -15,7 +16,8 @@
     "styles": "^0.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2"
+    "@babel/core": "^7.2.2",
+    "standard": "^12.0.1"
   },
   "scripts": {
     "dev": "parcel src/index.html --out-dir dist-dev",
