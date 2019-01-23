@@ -17,6 +17,8 @@ const jsx = (
 
 ReactDOM.render(jsx, document.getElementById('app'))
 
-store.dispatch(addIncrement(50))
+store.subscribe(() => {
+  console.log(store.getState().increments)
+})
 
-console.log(store.getState())
+store.dispatch(addIncrement(50))
