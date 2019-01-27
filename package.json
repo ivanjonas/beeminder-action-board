@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.3.0",
-    "assemble": "^0.3.83",
+    "assemble": "^0.24.3",
     "grunt": "^0.4.5",
     "parcel-bundler": "^1.11.0",
     "react": "^16.7.0",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "babel-eslint": "^10.0.1",
     "standard": "^12.0.1"
   },
   "scripts": {
